@@ -5,7 +5,6 @@
 
 body {
     background-color: hsl(217, 54%, 11%);
-
     font-size: 18px;
     font-weight: 200;
 }
@@ -19,24 +18,40 @@ main {
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
     color: hsl(215, 51%, 70%);
+    box-shadow: 0px 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 div {
-    margin: 20px 20px;
+}
+
+.margem {
+    margin: 20px;
 }
 
 hr {
-    margin: 20px;
-    border: hsl(215, 51%, 70%);
-    border-width: 1px;
-    border-style: solid;
+    width: 335px;
+    border-width: .05px;
+    border-color: rgba(139, 172, 218, 0.40);
 }
 
 h1 {
     color: hsl(0, 0%, 100%);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
-    margin: 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 #moeda {
@@ -45,28 +60,69 @@ h1 {
     margin-top: 20px;
 }
 
-#moeda:hover {
-    background-color: white;
-}
-
 #avatar {
-    max-width: 30px;
+    max-width: 40px;
     border-style: solid;
-    border-radius: 15px;
+    border-radius: 20px;
     border-width: 1px;
     border-color: hsl(0, 0%, 100%);
 }
 
-#user {
+.user {
+    margin-top: 20px;
+}
+
+.user p {
     display: inline;
+    position: relative;
+    left: 30px;
+    top: -17px;
 }
 
 #saldo {
     color: hsl(178, 100%, 50%);
 }
 
-#days {
+#saldo p {
+    position: relative;
+    bottom: 2.6px;
+}
 
+#days {
+   float: right;
+}
+
+#days p {
+    position: relative;
+    bottom: 2.1px;
+}
+
+.fundo-olho {
+    width: 335px;
+    height: 335px;
+    position: absolute;
+    margin-top: 20px;
+    opacity: 0;
+    border-radius: 5px;
+    background-color: hsla(178, 100%, 50%, 0.4);
+}
+
+#olho {
+    position: relative;
+    top: 143.5px;
+    left: 143.5px;
+}
+
+.fundo-olho:hover {
+    opacity: 1;
+}
+
+.sobrepor:hover {
+    opacity: .5;
+}
+
+.container {
+    position: relative;
 }
 
 .inline {

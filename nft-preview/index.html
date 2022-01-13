@@ -9,32 +9,42 @@
 </head>
 <body>
     <main>
-        <div> <!-- imagem principal -->
-            <img src="nft-preview-card-component-main/images/image-equilibrium.jpg" alt="Equilibrium" id="moeda">
-        </div>
-
-        <div> <!-- moeda e descrição -->
-            <h1>
-                Equilibrium #3429
-            </h1>
-            <p>
-                Our Equilibrium collection promotes balance and calm.
-            </p>
-        </div>
-        <div>
-            <section id="saldo" class="inline">
-                <p class="inline"> <img src="nft-preview-card-component-main/images/icon-ethereum.svg" alt="Ethereum"> 0.041 ETH </p>
-            </section>
-            <section id="days" class="inline">
-                <p class="inline"><img src="nft-preview-card-component-main/images/icon-clock.svg" alt="Relógio"> 3 days left</p>
-            </section>
-        </div>
-        <hr>
-        <footer> <!-- perfil do usuário -->
-            <div>
-                <img src="nft-preview-card-component-main/images/image-avatar.png" alt="Imagem de Perfil" id="avatar">
-                <p id="user">Creation of <a href="#">Jules Wyvern</a></p>
+        <section class="margem">
+            <div> <!-- imagem principal -->
+                <div class="container">
+                    <div class="sobrepor"></div> <!-- fundo ciano -->
+                    <div class="fundo-olho">
+                        <img src="nft-preview-card-component-main/images/icon-view.svg" alt="Olhos" id="olho">
+                    </div>
+                    <img src="nft-preview-card-component-main/images/image-equilibrium.jpg" alt="Equilibrium" id="moeda"> <!-- cubo -->
+                    
+                </div>
             </div>
+            <div> <!-- moeda e descrição -->
+                <h1>
+                    Equilibrium #3429
+                </h1>
+                <p>
+                    Our Equilibrium collection promotes balance and calm.
+                </p>
+            </div>
+            <div class="infos">
+                <div id="saldo" class="inline">
+                    <img src="nft-preview-card-component-main/images/icon-ethereum.svg" alt="Ethereum">
+                    <p class="inline">0.041 ETH </p>
+                </div>
+                <div id="days" class="inline">
+                    <img src="nft-preview-card-component-main/images/icon-clock.svg" alt="Relógio">
+                    <p class="inline"> 3 days left</p>
+                </div>
+            </div>
+            <hr>
+            <footer> <!-- perfil do usuário -->
+                <div class="user">
+                    <img src="nft-preview-card-component-main/images/image-avatar.png" alt="Imagem de Perfil" id="avatar">
+                    <p>Creation of <a href="#">Jules Wyvern</a></p>
+                </div>
+        </section>
         </footer>
     </main>
 </body>
