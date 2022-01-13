@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+
+    font-size: 18px;
+    font-weight: 200;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    height: 600px;
+    margin: auto;
+    border-radius: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+div {
+    margin: 20px 20px;
+}
+
+hr {
+    margin: 20px;
+    border: hsl(215, 51%, 70%);
+    border-width: 1px;
+    border-style: solid;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+#moeda {
+    width: 335px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#moeda:hover {
+    background-color: white;
+}
+
+#avatar {
+    max-width: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 100%);
+}
+
+#user {
+    display: inline;
+}
+
+#saldo {
+    color: hsl(178, 100%, 50%);
+}
+
+#days {
+
+}
+
+.inline {
+    display: inline;
+}
